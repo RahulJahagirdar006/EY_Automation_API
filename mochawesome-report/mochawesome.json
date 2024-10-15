@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-10-07T13:18:00.541Z",
+    "end": "2024-10-07T13:18:00.925Z",
+    "duration": 384,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "414c3eea-21d8-431b-9fe0-9c22417636c9",
+      "title": "",
+      "fullFile": "D:\\Downloads\\EY_API_Automation\\EY_test_Automation\\test\\DevEnv\\functionality_1\\TestAPIs\\Actualapi.js",
+      "file": "\\test\\DevEnv\\functionality_1\\TestAPIs\\Actualapi.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d1215366-18c8-446c-99c4-228f474f01d8",
+          "title": "Internal app 1",
+          "fullFile": "D:\\Downloads\\EY_API_Automation\\EY_test_Automation\\test\\DevEnv\\functionality_1\\TestAPIs\\Actualapi.js",
+          "file": "\\test\\DevEnv\\functionality_1\\TestAPIs\\Actualapi.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should",
+              "fullTitle": "Internal app 1 should",
+              "timedOut": false,
+              "duration": 377,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// await Base.getJsonStatus(\"https://api.restful-api.dev/objects\", 200).then(async(response) => {\n     \n // });\n await Base.assertExpectJson(\"get\", \"https://api.restful-api.dev/objects\", \"test/DevEnv/functionality_1/TestAPIs/TestData/Request.json\", 200, false)",
+              "err": {
+                "message": "AssertionError: AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n\u001b[32m+ actual\u001b[39m \u001b[31m- expected\u001b[39m \u001b[34m...\u001b[39m Lines skipped\n\n  [\n    {\n\u001b[32m+\u001b[39m     data: {\n\u001b[32m+\u001b[39m       capacity: '128 GB',\n\u001b[32m+\u001b[39m       color: 'Cloudy White'\n\u001b[32m+\u001b[39m     },\n      id: '1',\n\u001b[34m...\u001b[39m\n      name: 'Apple iPad Air'\n    }\n  ]",
+                "estack": "AssertionError: AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected ... Lines skipped\n\n  [\n    {\n+     data: {\n+       capacity: '128 GB',\n+       color: 'Cloudy White'\n+     },\n      id: '1',\n...\n      name: 'Apple iPad Air'\n    }\n  ]\n    at Object.assertExpectJson (file:///D:/Downloads/EY_API_Automation/EY_test_Automation/utils/REST_JSON/assertion/expect_json.js:53:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Context.<anonymous> (file:///D:/Downloads/EY_API_Automation/EY_test_Automation/test/DevEnv/functionality_1/TestAPIs/Actualapi.js:8:9)",
+                "diff": null
+              },
+              "uuid": "a1ef33d8-da48-4791-aa59-d1a530d452c9",
+              "parentUUID": "d1215366-18c8-446c-99c4-228f474f01d8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "a1ef33d8-da48-4791-aa59-d1a530d452c9"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 377,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 10000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.7.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

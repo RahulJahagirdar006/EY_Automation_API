@@ -1,0 +1,10 @@
+{
+    "<<<<<<<<<<<<<<<<<<<<<<<<<<<login":">>>>>>>>>>>>>>>>>>>>>>>>>>",
+    "loginurl":"http://localhost:3170/login",
+    "url":"http://localhost:3170/Home",
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG5fZG9lIiwicGFzc3dvcmQiOiIkMmIkMTAkc3UxUnlsMVF2NWVoOEl0MkVJeU8yT3lRVkpuSVhuLkxMb0oyMXBjR0dUOWZGaUQ2RmRBUVciLCJpYXQiOjE3MjMwMTQyNjB9.rloQ1R0qOeo7gQUHPjY-JQXhjuzGnHvwyqSTT4ARm4w",
+    "status_code":200,
+    "username": {
+        "username": "jane_smith1"
+    }
+}

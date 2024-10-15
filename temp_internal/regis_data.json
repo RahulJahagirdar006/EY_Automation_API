@@ -1,0 +1,72 @@
+[
+    {
+        "username": "john_doe",
+        "email": "john.doe@example.com",
+        "phone_number": "1234567890",
+        "password": "password123",
+        "confirm_password": "password123"
+    },
+    {
+        "username": "jane_smith",
+        "email": "jane.smith@example.com",
+        "phone_number": "1234567891",
+        "password": "password124",
+        "confirm_password": "password124"
+    },
+    {
+        "username": "bob_johnson",
+        "email": "bob.johnson@example.com",
+        "phone_number": "1234567892",
+        "password": "password125",
+        "confirm_password": "password125"
+    },
+    {
+        "username": "alice_williams",
+        "email": "alice.williams@example.com",
+        "phone_number": "1234567893",
+        "password": "password126",
+        "confirm_password": "password126"
+    },
+    {
+        "username": "charlie_brown",
+        "email": "charlie.brown@example.com",
+        "phone_number": "1234567894",
+        "password": "password127",
+        "confirm_password": "password127"
+    },
+    {
+        "username": "david_clark",
+        "email": "david.clark@example.com",
+        "phone_number": "1234567895",
+        "password": "password128",
+        "confirm_password": "password128"
+    },
+    {
+        "username": "eva_martin",
+        "email": "eva.martin@example.com",
+        "phone_number": "1234567896",
+        "password": "password129",
+        "confirm_password": "password129"
+    },
+    {
+        "username": "frank_thomas",
+        "email": "frank.thomas@example.com",
+        "phone_number": "1234567897",
+        "password": "password130",
+        "confirm_password": "password130"
+    },
+    {
+        "username": "grace_lee",
+        "email": "grace.lee@example.com",
+        "phone_number": "1234567898",
+        "password": "password131",
+        "confirm_password": "password131"
+    },
+    {
+        "username": "henry_turner",
+        "email": "henry.turner@example.com",
+        "phone_number": "1234567899",
+        "password": "password132",
+        "confirm_password": "password132"
+    }
+]

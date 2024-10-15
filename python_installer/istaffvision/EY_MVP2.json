@@ -1,0 +1,20 @@
+{
+    "//shortcut_path": "Path to the shortcut file - to be configured in property file, data file",
+  "shortcut_path": "C:/Program Files/Git/git-bash.exe",
+
+  "//time": "Time in seconds to wait between commands",
+  "time_interval": 2,
+  "//sleep_interval": "Time in seconds to wait between tasks - to be configured",
+
+  "//path directory": "Directory to change into before running commands, add Base path after the cd",
+  "path_directory": "cd D:/API_MOCHA/EY_test_Automation",
+
+  "//primary_env": "Primary environment configuration - Update this with the appropriate configuration for your environment",
+  "primary_env1": "export NODE_ENV=DevEnv",
+  "primary_env2": "",
+  "secondary_env1": "",
+  "secondary_env2":"",
+  "secondary_env3":"",
+
+  "run": "npm run api"
+}

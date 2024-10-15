@@ -1,0 +1,24 @@
+{
+ "DevEnv": {
+      "baseUrl": "http://localhost:3000/api",
+      "appName": "Management",
+      "env":"DevEnv",
+      "mysqlDataBaseConnection": {
+          "host": "",
+          "user": "",
+          "password": "",
+          "port": 3306
+      }
+  },
+  "DevEnv1": {
+      "baseUrl": "https://api.restful-api.dev/",
+      "appName": "Endpoints",
+      "env":"DevEnv",
+      "mysqlDataBaseConnection": {
+          "host": "",
+          "user": "",
+          "password": "",
+          "port": ""
+      }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "appname":"Conversion Tool",
+    "env":"DevEnv",
+    "baseurl":"http://localhost:3110/submit",
+    "basepath":"D:/API_MOCHA/iStaffVision_REST_API_Internal/ISV_AR_APPREG_01",
+    "decryptionkey":"1124",
+    "dbconnection":"Yes",
+    "dbtype": "MYSQL",
+    "dbhost":"localhost",
+    "dbuser":"root",
+    "dbpassword":"root",
+    "dbport":"3306"
+}

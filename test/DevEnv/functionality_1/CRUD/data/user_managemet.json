@@ -1,0 +1,57 @@
+{
+    "Register_PAdmin":{
+        "user_name":"DhoniMH",
+        "phone_number": "9876598765",
+        "email": "dhonimh@gmail.com",
+        "password": "62d023120893c275b3b4b051652d2454|2a2cc52b76fadc5814f9d9157489ddba",
+        "role_name": "PAdmin" 
+    },
+    "Login_PAdmin":{
+        "email": "dhonimh@gmail.com",
+        "password": "62d023120893c275b3b4b051652d2454|2a2cc52b76fadc5814f9d9157489ddba"
+    },
+    "Eadmin_Company":{
+        "company": {
+          "company_name": "HCL",
+          "company_email": "hcl@gmail.com",
+          "company_city": "New Delhi",
+          "company_country": "India",
+          "GST_number": "29XYZ5678D1Z0",
+          "company_address": "123 Tech Street, Suite 102"
+        },
+        "employee": {
+          "user_name": "ViaanJ",
+          "first_name": "Viaan",
+          "last_name": "Jain",
+          "email": "viaanj@gmail.com",
+          "phone_number": "9876543210",
+          "password": "4eefb2371fcc4a2fba30d314c354ca21|6a892fe9eeb79fd33df3d353a7c5c265"
+        }
+    },
+    "Login_Eadmin":{
+        "email": "viaanj@gmail.com",
+        "password": "4eefb2371fcc4a2fba30d314c354ca21|6a892fe9eeb79fd33df3d353a7c5c265"
+    },
+    "Create_Recruiter":{
+        "first_name": "Virat",
+        "last_name": "VKr",
+        "email": "virat18@gmail.com",
+        "password": "7f1e0b7233f3b34ad23f87f52cb75657|0ba57839b58690a58693c08ebfce3a30",
+        "phone_number": "8123456790",
+        "role_name": "Recruiter"
+    },
+    "Login_Recruiter":{
+        "email": "virat18@gmail.com",
+        "password": "7f1e0b7233f3b34ad23f87f52cb75657|0ba57839b58690a58693c08ebfce3a30"
+    },
+    "Create_Candidate":{
+        "first_name": "Rohit",
+        "last_name": "Sharma",
+        "profilePicURL": "http://image.com/profile.jpg",
+        "email": "rohits@gmail.com",
+        "phone_number": "1234567890",
+        "user_name": "RohitS45",
+        "password": "245e341c159f397bebe6959a5ba4b67d|46b106b04c22e5aa12433718f3229481"
+      }
+    
+}

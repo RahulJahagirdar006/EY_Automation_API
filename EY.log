@@ -1,0 +1,14 @@
+07-10-24 18:48:00  error: Expected values to be strictly deep-equal:
+[32m+ actual[39m [31m- expected[39m [34m...[39m Lines skipped
+
+  [
+    {
+[32m+[39m     data: {
+[32m+[39m       capacity: '128 GB',
+[32m+[39m       color: 'Cloudy White'
+[32m+[39m     },
+      id: '1',
+[34m...[39m
+      name: 'Apple iPad Air'
+    }
+  ]
